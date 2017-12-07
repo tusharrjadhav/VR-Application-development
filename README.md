@@ -55,7 +55,7 @@ def vrVersion= “1.80.0”
        }
 ```
 
-*VrPanoramaView*
+**VrPanoramaView**
 
 Since the image is large we load it asynchronously. (AsyncTask, RxJava, etc.)
 
@@ -73,7 +73,7 @@ vrVideoView.loadVideo(uri,videoOptions);
 -	TYPE_MONO — single equirectangular panorama.
 -	TYPE_STEREO_OVER_UNDER — two vertically-stacked equirectangular panoramaspanoramas.
 ```
-*VrVideoView*
+**VrVideoView**
 
 *Load video form:*
 -	asset
@@ -96,7 +96,7 @@ inputType
 -	TYPE_STEREO_OVER_UNDER — two vertically-stacked equirectangular panoramas.
 ```
 
-*View Lifecycle*
+**View Lifecycle**
 ```
 @Override
 public void onPause(){
