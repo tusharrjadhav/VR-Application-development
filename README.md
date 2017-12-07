@@ -1,39 +1,39 @@
 # VR-Application-development
 Summary how to create VR Application for Android
 
-Supported VR platform
-●	Cardboard
-●	Almost any smartphone on Android or iOS
-●	Daydream
-●	Pixel, Pixel XL, Galaxy S8, ZenFone AR, etc. Daydream ready phone
+**Supported VR platform**
+-	Cardboard
+-	Almost any smartphone on Android or iOS
+-	Daydream
+-	Pixel, Pixel XL, Galaxy S8, ZenFone AR, etc. Daydream ready phone
 
-SDKs
-●	Unity
-●	Android/NDK
-●	iOS
-●	Unreal (game engine)
+**SDKs**
+-	Unity
+-	Android/NDK
+-	iOS
+-	Unreal (game engine)
 
-Requirement
-Hardware
-●	Daydream: Daydream-ready phone and a Daydream View.
-●	Cardboard: Android device running Android 4.4 ‘KitKat’ (API 19) or higher and a Cardboard viewer.
-Software
-●	Android Studio version 2.3.3 or higher.
-●	Android SDK 7.1.1 ‘Nougat’ (API 25) or higher.
-●	Google VR SDK for Android version 1.80.0 or higher.
+**Requirement**
+*Hardware*
+-	Daydream: Daydream-ready phone and a Daydream View.
+-	Cardboard: Android device running Android 4.4 ‘KitKat’ (API 19) or higher and a Cardboard viewer.
+*Software*
+-	Android Studio version 2.3.3 or higher.
+-	Android SDK 7.1.1 ‘Nougat’ (API 25) or higher.
+-	Google VR SDK for Android version 1.80.0 or higher.
 
 Supported Formats
 Image Specifications
-●	png, jpeg, or gif. recommend use jpeg for improved compression.
-●	Image dimensions should be powers of two (e.g. 2048 or 4096).
-●	Mono images should be 2:1 aspect ratio (e.g. 4096 x 2048).
-●	Stereo images should be 1:1 aspect ratio (e.g. 4096 x 4096).
-●	Image need to be equirectangular format.
+-	png, jpeg, or gif. recommend use jpeg for improved compression.
+-	Image dimensions should be powers of two (e.g. 2048 or 4096).
+-	Mono images should be 2:1 aspect ratio (e.g. 4096 x 2048).
+-	Stereo images should be 1:1 aspect ratio (e.g. 4096 x 4096).
+-	Image need to be equirectangular format.
 Video specifications
-●	mp4s encoded with h264.
-●	Mono videos should be 2:1 aspect ratio.
-●	Stereo videos should be 1:1 aspect ratio.
-●	For maximum compatibility and quality. Provide both a monoscopic 1920x1080 video and a stereo video at 2048x2048 or higher.
+-	mp4s encoded with h264.
+-	Mono videos should be 2:1 aspect ratio.
+-	Stereo videos should be 1:1 aspect ratio.
+-	For maximum compatibility and quality. Provide both a monoscopic 1920x1080 video and a stereo video at 2048x2048 or higher.
 
 How to Use
 
@@ -52,24 +52,24 @@ def vrVersion= “1.80.0”
 VrPanoramaView
 Since the image is large we load it asynchronously. (AsyncTask, RxJava, etc.)
 Load image from:
-●	asset
-●	file system (png, jpeg, gif)
-●	URL
-●	anything can convert to Bitmap
+-	asset
+-	file system (png, jpeg, gif)
+-	URL
+-	anything can convert to Bitmap
 
 vrVideoView.loadVideoFromAsset(filename,videoOptions);
 vrVideoView.loadVideo(uri,videoOptions);
 
 VrPanoramaView.Options
-●	TYPE_MONO — single equirectangular panorama.
-●	TYPE_STEREO_OVER_UNDER — two vertically-stacked equirectangular panoramaspanoramas.
+-	TYPE_MONO — single equirectangular panorama.
+-	TYPE_STEREO_OVER_UNDER — two vertically-stacked equirectangular panoramaspanoramas.
 
 VrVideoView 
 Load video form:
-●	asset
-●	file system (mp4, webm, ogg, aac.)
-●	MPEG-DASH format (Dynamic Adaptive Streaming over HTTP wiki) (support from v1.40.0)
-●	HTTP Live Streaming (HLS wiki) format (ts, m3u8)
+-	asset
+-	file system (mp4, webm, ogg, aac.)
+-	MPEG-DASH format (Dynamic Adaptive Streaming over HTTP wiki) (support from v1.40.0)
+-	HTTP Live Streaming (HLS wiki) format (ts, m3u8)
 
 VrVideoView.loadVideo(Uri uri, VrVideoView.Options options)
       
@@ -77,12 +77,12 @@ VrVideoView.loadVideoFromAsset(String s, VrVideoView.Options options)
 
 VrVideoView.Options
 inputFormat
-●	FORMAT_DEFAULT — In a standalone, non-streaming format using container formats such as mp4, webm, ogg, aac.
-●	FORMAT_DASH — MPEG-DASH format. (a kind of adaptive bitrate streaming)
-●	FORMAT_HLS — HTTP Live Streaming (HLS) format.
+-	FORMAT_DEFAULT — In a standalone, non-streaming format using container formats such as mp4, webm, ogg, aac.
+-	FORMAT_DASH — MPEG-DASH format. (a kind of adaptive bitrate streaming)
+-	FORMAT_HLS — HTTP Live Streaming (HLS) format.
 inputType
-●	TYPE_MONO — single equirectangular panorama.
-●	TYPE_STEREO_OVER_UNDER — two vertically-stacked equirectangular panoramas.
+-	TYPE_MONO — single equirectangular panorama.
+-	TYPE_STEREO_OVER_UNDER — two vertically-stacked equirectangular panoramas.
 
 View Lifecycle
 @Override
