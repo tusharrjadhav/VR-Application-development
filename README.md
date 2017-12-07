@@ -14,13 +14,14 @@ Summary how to create VR Application for Android
 -	Unreal (game engine)
 
 **Requirement**
-*Hardware*
--	Daydream: Daydream-ready phone and a Daydream View.
--	Cardboard: Android device running Android 4.4 ‘KitKat’ (API 19) or higher and a Cardboard viewer.
-*Software*
--	Android Studio version 2.3.3 or higher.
--	Android SDK 7.1.1 ‘Nougat’ (API 25) or higher.
--	Google VR SDK for Android version 1.80.0 or higher.
+
+-*Hardware*
+       -	Daydream: Daydream-ready phone and a Daydream View.
+       -	Cardboard: Android device running Android 4.4 ‘KitKat’ (API 19) or higher and a Cardboard viewer.
+-*Software*
+       -	Android Studio version 2.3.3 or higher.
+       -	Android SDK 7.1.1 ‘Nougat’ (API 25) or higher.
+       -	Google VR SDK for Android version 1.80.0 or higher.
 
 Supported Formats
 Image Specifications
