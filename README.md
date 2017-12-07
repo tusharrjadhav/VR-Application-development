@@ -149,12 +149,11 @@ Read about [creating Daydream applications in Unreal](https://developers.google.
 
 
 **Reference**
-
--Google VR https://developers.google.com/vr
--Google VR for Android https://developers.google.com/vr/android
--VR View sample code https://developers.google.com/vr/android/samples/vrview
--googlevr/gvr-android-sdk https://github.com/googlevr/gvr-android-sdk
--Rajawali https://github.com/Rajawali/Rajawali
+- Google VR https://developers.google.com/vr
+- Google VR for Android https://developers.google.com/vr/android
+- VR View sample code https://developers.google.com/vr/android/samples/vrview
+- googlevr/gvr-android-sdk https://github.com/googlevr/gvr-android-sdk
+- Rajawali https://github.com/Rajawali/Rajawali
 
 
 
