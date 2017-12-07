@@ -120,7 +120,7 @@ public void onDestroy(){
 
 **RajawaliVR**
 
-Rajawali is a 3D engine for Android based on OpenGL ES 2.0/3.0.  RajawaliVR integrates the Rajawali 3D framework with the Google Cardboard SDK v0.6.0.
+Rajawali is a 3D engine for Android based on [OpenGL ES 2.0/3.0](https://www.opengl.org/).  RajawaliVR integrates the Rajawali 3D framework with the Google Cardboard SDK v0.6.0.
 RajawaliVR used to be a separate module and now is moved to the main Rajawali repository on Github.
 
 We can create VR app using Unity and Unreal. We need to create/import 3D model animate them and moment algorithms that make them hard to implement and Most important they are game engines and as Application developer we are also want to access to API and Libs provided by Android. With Unity & Unreal we lost the access to these.
@@ -131,11 +131,12 @@ OpenGL is standard when doing native mobile development. OpenGL the graphics lib
 
 Build virtual reality applications for Android and iOS using Unity and the Google VR SDK.
 Unity's native integration with Google VR makes it easy to build Android applications for Daydream and Cardboard. The Google VR SDK for Unity provides additional features like spatialized audio, Daydream controller support, utilities and samples.
-Using the native integration requires Unity 5.6 or newer.
+Using the native integration requires [Unity 5.6 or newer](https://unity3d.com/get-unity/download).
 
 Unity provide Unity IDE and MonoDevelop. Monodevelop is a development IDE for writing your code in C#, JS, and Boo. 
 
 **Unreal**
+
 Build mobile VR applications in Unreal using the Google VR Plugin. Unreal Engine natively supports creating Daydream and Cardboard applications.
 
 Google has made significant improvements to Unreal Engine integration that will help developers build better production-quality Daydream apps. The latest version introduces Daydream controller support in the editor, a neck model, new rendering optimizations, and much more.
@@ -143,7 +144,7 @@ Unreal Engine 4 provides two toolsets for programmers which can also be used in 
 
 C++ classes can be used as a base for Blueprint classes, and in this way programmers can set up fundamental gameplay classes that are then sub-classed and iterated on by level designers.
 
-Read about creating Daydream applications in Unreal.
+Read about [creating Daydream applications in Unreal](https://developers.google.com/vr/unreal/daydream-in-unreal).
 
 
 
